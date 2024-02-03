@@ -6,8 +6,8 @@ import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import YoutubeGallery from "../../Assets/Projects/YoutubeGallery.png";
+import pocketNotes from "../../Assets/Projects/pocketNotes.png";
 
 function Projects() {
   return (
@@ -37,14 +37,14 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={pocketNotes}
               isBlog={false}
               title="Pocket-Notes"
               description="•	fully responsive Pocket Notes app using React.js, providing users with a sleek and intuitive interface for creating, organizing, and managing notes on the go. Implemented features such as real-time syncing across devices, rich text editing, and seamless navigation. The application ensures a consistent and user-friendly experience on various devices, enhancing productivity and accessibility for note-taking tasks.
               
               "
               ghLink="https://github.com/rijulsharma/Pocket-Notes-App"
-              demoLink="https://blogs.soumya-jit.tech/"
+              demoLink="https://cuvette-pocket-notes-app.netlify.app/"
             />
           </Col>
 
@@ -74,14 +74,14 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={YoutubeGallery}
               isBlog={false}
               title="Personal Youtube Gallery"
               description="•	A responsive Web App made using node.js to save favorite YouTube videos with video ID or link.
               •	Allows users to stream video directly into the same App. The user data is saved in MongoDb
               "
               ghLink="https://github.com/rijulsharma/Personal-Youtube-Gallery"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              demoLink="https://rijulsharma.github.io/youtube-gallery-updated/"
             />
           </Col>
 
